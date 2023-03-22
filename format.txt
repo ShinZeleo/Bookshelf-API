@@ -1,0 +1,29 @@
+.struktur data yg masuk postman
+{
+    "name": string,
+    "year": number,
+    "author": string,
+    "summary": string,
+    "publisher": string,
+    "pageCount": number,
+    "readPage": number,
+    "reading": boolean
+}
+
+.struktur data yg di simpan array
+{
+    "id": nanoid(16)
+    "name": string,
+    "year": number,
+    "author": string,
+    "summary": string,
+    "publisher": string,
+    "pageCount": number,
+    "readPage": number,
+    "finished": boolean,
+    "reading": boolean,
+    "updateAt": time
+}
++jika finished = true (readPage = pageCount)
++jika finished = false (readPage < pageCount)
++jika finished = undefined (readPage > pageCount)
